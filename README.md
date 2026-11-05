@@ -1,13 +1,11 @@
 # Canal & Country meeting transcripts — read-only access
 
-Snapshot of the public publication index as of **2026-10-09T07:27:19.044Z**.
+**Status: snapshot 2026-10-09.** Part of [Canal & Country](https://canalandcountry.com).
 
-Access tested from Grok's environment; awaiting ChatGPT verification.
+Snapshot of the public publication index as of **2026-10-09T07:27:19.044Z**.
 
 ## Start here
 
-- HTML insights shell (JS): https://meeting-insights.canalandcountry.workers.dev/?view=library
-- Machine inventory (159 meetings, 1,288,008 indexed words): https://meeting-insights.canalandcountry.workers.dev/api/index.json
 - ASR status: https://capital-region-meeting-asr.canalandcountry.workers.dev/status
 
 ## Full transcript JSON
@@ -33,6 +31,6 @@ The JSON object includes `text` (full transcript), `segments` (start/end in seco
 
 ## What is not in this repo
 
-Server-rendered HTML pages containing every transcript, plain-text mirrors, and a dated ZIP of all transcripts were not published here. The Worker source repo is a stub and this environment has no Cloudflare deploy credentials. Existing result.json URLs are the authoritative full text.
+Server-rendered HTML pages containing every transcript, plain-text mirrors, and a dated ZIP of all transcripts were not published here. Existing result.json URLs are the authoritative full text.
 
 Retention: live worker objects are the system of record. This README is a handoff, not a second store.
